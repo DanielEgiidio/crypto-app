@@ -23,10 +23,10 @@ const Navbar = () => {
       </div>
       <Menu theme="dark">
         <Menu.Item icon={<HomeOutlined />}>
-          <Link to="/"> HomePage </Link>
+          <Link to="/"> Home </Link>
         </Menu.Item>
         <Menu.Item icon={<FundOutlined />}>
-          <Link to="/cryptocurrencies"> Criptomoedas </Link>
+          <Link to="/criptomoedas"> Criptomoedas </Link>
         </Menu.Item>
         <Menu.Item icon={<MoneyCollectOutlined />}>
           <Link to="/exchanges"> Exchanges </Link>
